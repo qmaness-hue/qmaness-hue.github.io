@@ -10,4 +10,4 @@ The purpose of this block diagram is to get a visual representation of what my p
 
 ## Block Diagram 
 
-![ Individual Block Diagram ](individual-block-diagram.drawio.png)
+![ Individual Block Diagram ](individual-block-diagram.drawio.png){style width:"350" height:"300;"}

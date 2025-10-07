@@ -6,19 +6,14 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
+The purpose of this block diagram is to get a visual representation of what my part for the team assignment might look like. It indicates the mechanism for creating a frequency filter for both sound frequency and decibel level (allbeit in a simplified depiction). It also shows how many connections will be done as well as approximately where they will be on the board.
 
 To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
 
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
+## Block Diagram 
 
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+![ Individual Block diagram ][def]
+
+
+[def]: individual-block-diagram.drawio.png

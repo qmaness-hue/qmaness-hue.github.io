@@ -20,7 +20,7 @@ title: Component Selection
 
 ### Decibel Filter
 
-*Table 2: Decibel Filter for Clape Light*
+*Table 2: Decibel Filter for Clap Light*
 
 **Decibel Filter**
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |

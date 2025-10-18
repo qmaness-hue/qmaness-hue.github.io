@@ -1,59 +1,31 @@
 ---
-title: Component Selection Example
+title: Component Selection
 ---
 
-## Examples
+### Frequency Filter
 
-### Style 1
+*Table 1: Frequency Filter for Clap Light*
 
-> This is the example found in the assignment, uses more html
-
-*Table 1: Example component selection*
-
-**External Clock Module**
+**Frequency Filter**
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | ![](ActiveFilter_qm.png)<br>Option 1.<br> Active Band-Pass Filter <br>$1-10/each<br>[Link to tutorial](https://www.electronics-tutorials.ws/filter/filter_7.html)                 | \* Highly adjustable<br>\* Better control over filter characterisitics<br>\* Can meet surface mount constraint of project                                               | \* Requires op-amp (or similar) system<br>\* More complex <br>\* Requires power supply |
-| ![](BA3835F_qm.png)<br>\* Option 2. <br>\* BA3835F-E2 Active Band-Pass Filter<br>\* $5.34/each <br>\* [Link to product](https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BA3835F-E2?qs=IsRgwgmxh69SW0igeBnrlg%3D%3D) | \* Easier to work with <br>\* Compact <br> \* Easily repeatable and understood | * More expensive <br>\* Has unadjustable attributes <br>\* Requires power supply |               
-| ![](PassiveFilter_qm.png)<br>\* Option 3. <br>\* Passive Band-Pass Filter<br>\* $1/each <br>\* [Link to tutorial](https://www.electronics-tutorials.ws/filter/filter_4.html) | \* No power supply needed <br>\* Simple <br> \* Easily repeatable and understood | * Less adjustable <br>\* Would require more innovation to apply <br>\* Requires power supply <br>\* Could end up being large and/or clunky |
+| ![](BA3835F_qm.png)<br>\ Option 2. <br>\ BA3835F-E2 Active Band-Pass Filter<br>\* $5.34/each <br>\* [Link to product](https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BA3835F-E2?qs=IsRgwgmxh69SW0igeBnrlg%3D%3D) | \* Easier to work with <br>\* Compact <br> \* Easily repeatable and understood | * More expensive <br>\* Has unadjustable attributes <br>\* Requires power supply |               
+| ![](PassiveFilter_qm.png)<br>\ Option 3. <br>\ Passive Band-Pass Filter<br>\* $1-10/each <br>\* [Link to tutorial](https://www.electronics-tutorials.ws/filter/filter_4.html) | \* No power supply needed <br>\* Simple <br> \* Easily repeatable and understood | * Less adjustable <br>\* Would require more innovation to apply <br>\* Requires power supply <br>\* Could end up being large and/or clunky |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 2: BA3835F-E2 Active Band-Pass Filter
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** A widely made and used active band-pass filter is better in this application not only because it's smaller and requires less (unnecessary) innovation, but also because in a real life scenario, it would allow for cheaper, wider spread manufacturing of the clap light and its hardware/software.
 
-### Style 2
+### Decibel Filter
 
-> Also acceptable, more markdown friendly
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](One-Knob_NoiseGate.png)<br>Option 1.<br> One-Knob Noise Gate <br>$1-10/each<br>[Link to tutorial](https://effectslayouts.blogspot.com/2016/07/one-knob-noise-gate.html)                 | \* Highly adjustable<br>\* Better control over characterisitics <br>\* Can meet surface mount constraint of project         | \* Requires large number of parts <br>\* Very complex <br>\* Requires power supply <br>\* Likely to be relatively large |
+| ![](BA3835F_qm.png)<br>\ Option 2. <br>\ BA3835F-E2 Active Band-Pass Filter<br>\* $5.34/each <br>\* [Link to product](https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BA3835F-E2?qs=IsRgwgmxh69SW0igeBnrlg%3D%3D) | \* Easier to work with <br>\* Compact <br> \* Easily repeatable and understood | * More expensive <br>\* Has unadjustable attributes <br>\* Requires power supply |               
+| ![](PassiveFilter_qm.png)<br>\ Option 3. <br>\ Passive Band-Pass Filter<br>\* $1-10/each <br>\* [Link to tutorial](https://www.electronics-tutorials.ws/filter/filter_4.html) | \* No power supply needed <br>\* Simple <br> \* Easily repeatable and understood | * Less adjustable <br>\* Would require more innovation to apply <br>\* Requires power supply <br>\* Could end up being large and/or clunky |
 
-**External Clock Module**
+**Choice:** Option 2: BA3835F-E2 Active Band-Pass Filter
 
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
-
-1. CTX936TR-ND surface mount oscillator
-
-    ![](image3.png)
-
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** A widely made and used active band-pass filter is better in this application not only because it's smaller and requires less (unnecessary) innovation, but also because in a real life scenario, it would allow for cheaper, wider spread manufacturing of the clap light and its hardware/software.

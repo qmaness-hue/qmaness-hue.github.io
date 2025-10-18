@@ -875,12 +875,33 @@
 <p><strong>Rationale:</strong> A widely made and used active band-pass filter is better in this application not only because it's smaller and requires less (unnecessary) innovation, but also because--in a real life scenario--it would allow for cheaper, more widely spread manufacturing of the clap light and its hardware/software.</p>
 <h3 id="decibel-filter">Decibel Filter</h3>
 <p><em>Table 2: Decibel Filter for Clap Light</em></p>
-<p><strong>Decibel Filter</strong>
-| <strong>Solution</strong>                                                                                                                                                                                      | <strong>Pros</strong>                                                                                                                                    | <strong>Cons</strong>                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../One-Knob_NoiseGate.png" data-desc-position="bottom"><img alt="" src="../One-Knob_NoiseGate.png"></a><br>Option 1<br> One-Knob Noise Gate <br>$1-10/each<br><a href="https://effectslayouts.blogspot.com/2016/07/one-knob-noise-gate.html">Link to tutorial</a>                 | * Highly adjustable<br>* Better control over characterisitics <br>* Can meet surface mount constraint of project         | * Requires large number of parts <br>* Very complex <br>* Requires power supply <br>* Likely to be relatively large |
-| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../AudioLimiterCircuit.png" data-desc-position="bottom"><img alt="" src="../AudioLimiterCircuit.png"></a><br> Option 2 <br> Audio Limiter <br>* $1-10/each <br>* <a href="https://www.edn.com/audio-limiter-circuit-schematic/">Link to product</a> | * Less complex <br>* Smaller than alternatives <br> * Highly Adjustable | * Requires op-amp system <br>* Would require a lot of innovation <br>* Requires power supply |             <br>
-| <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../WindowComparator.png" data-desc-position="bottom"><img alt="" src="../WindowComparator.png"></a><br> Option 3 <br> Window Comparator <br>* $1-10/each <br>* <a href="https://www.electronics-tutorials.ws/opamp/op-amp-comparator.html">Link to tutorial</a> | * Easily applied <br>* Recieves easily adjustable (with software) range of voltages <br> * Doesn't filter (uses 'switch' instead) | * Requires extra innovation for easy user adjustabiity <br>* More specific voltage/decibel range than other comparators<br>* Requires power supply <br>* Requires op-amp <br>* More complex than other comparators |</p>
+<p><strong>Decibel Filter</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../One-Knob_NoiseGate.png" data-desc-position="bottom"><img alt="" src="../One-Knob_NoiseGate.png"></a><br>Option 1<br> One-Knob Noise Gate <br>$1-10/each<br><a href="https://effectslayouts.blogspot.com/2016/07/one-knob-noise-gate.html">Link to tutorial</a></td>
+<td>* Highly adjustable<br>* Better control over characterisitics <br>* Can meet surface mount constraint of project</td>
+<td>* Requires large number of parts <br>* Very complex <br>* Requires power supply <br>* Likely to be relatively large</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../AudioLimiterCircuit.png" data-desc-position="bottom"><img alt="" src="../AudioLimiterCircuit.png"></a><br> Option 2 <br> Audio Limiter <br>* $1-10/each <br>* <a href="https://www.edn.com/audio-limiter-circuit-schematic/">Link to product</a></td>
+<td>* Less complex <br>* Smaller than alternatives <br> * Highly Adjustable</td>
+<td>* Requires op-amp system <br>* Would require a lot of innovation <br>* Requires power supply</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../WindowComparator.png" data-desc-position="bottom"><img alt="" src="../WindowComparator.png"></a><br> Option 3 <br> Window Comparator <br>* $1-10/each <br>* <a href="https://www.electronics-tutorials.ws/opamp/op-amp-comparator.html">Link to tutorial</a></td>
+<td>* Easily applied <br>* Recieves easily adjustable (with software) range of voltages <br> * Doesn't filter (uses 'switch' instead)</td>
+<td>* Requires extra innovation for easy user adjustabiity <br>* More specific voltage/decibel range than other comparators<br>* Requires power supply <br>* Requires op-amp <br>* More complex than other comparators</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Choice:</strong> Option 3: Window Comparator</p>
 <p><strong>Rationale:</strong> A window comparator is the best choice because it would allow for a more specific range of decibels in order to activate the switch--reducing accidental activation. It requires less innovation than a noise gate and limiter would, as neither of those are necessarily made for filtering decibel level in the same way that is required by a clap light. Although more complex than other comparators, it would allow for a more specific range of decibels to be the activation range, reducing accidental light activation. It can include non-inverting comparators, inverting comparators, etc. in its design, as it offers a good template for innovation.</p>
 

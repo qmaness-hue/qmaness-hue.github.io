@@ -10,4 +10,4 @@ The purpose of this block diagram is to get a basic visual representation of wha
 
 ## Block Diagram 
 
-![ Individual Block Diagram ](BlockDiagram2.0.png)
+![ Individual Block Diagram ](BlockDiagram2.1.png)

@@ -7,16 +7,16 @@ tags:
 <center>
 <font size= "6"> Quinn A. Maness Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> ClapSense</font><br>
 for<br>
 <font size= "5"> Team 204 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: October, 27, 2025**
 </center>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* The purpose of this datasheet is to show the individual work and specifications from Quinn Maness towards ClapSense.
 
 ### Project Summary
 

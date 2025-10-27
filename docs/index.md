@@ -16,19 +16,20 @@ for<br>
 
 ## Introduction
 
-* The purpose of this datasheet is to show the individual work and specifications from Quinn Maness towards ClapSense.
+* The purpose of this datasheet is to show the individual work and specifications from group member Quinn Maness towards ClapSense.
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+* ClapSense is a project whos creators aim to create an inclusive, modern, reliable, and inexpensive new clap light that both has immense customization and a simple process for doing so.
+* This datasheet gives an overview of the filtering subsystem. An essential step towards the culmination of our four members' ideas as given in the [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
 
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
-
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
-
-For all the sections
+* This datasheet gives an in depth visual and written explanation behind everything within the filtering subsystem of ClapSense--all of which is my contribution.
+* If you wish to see my individual (and more in-depth) block diagram, navigate to the [Block Diagram.](https://qmaness-hue.github.io/01-Block-Diagram/Block-Diagram/)
+* If you wish to see the specific components that the filtering subsystem consists of, as well as possible alternative components and the reasoning behind the chosen components, navigate to the [Component Selection](https://qmaness-hue.github.io/02-Component-Selection/Component-Selection/) section.
+* If you wish to review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://qmaness-hue.github.io/03-BOM/BOM/) section of the datasheet.
+* If you wish to look at the detailed schematic, as well as further explanation behind the subsystem's functions, look to the [Schematic](https://qmaness-hue.github.io/04-Schematic/schematic/) section.
+* If you wish to see the power budget for the subsystem, as well as the organized specifications of included major components, look to the [Power Budget.](https://qmaness-hue.github.io/05-Power-Budget/Power-Budget/)
+* For any supporting information that might not have been included in the above sections, look to the [Appendix.](https://qmaness-hue.github.io/Appendix/)

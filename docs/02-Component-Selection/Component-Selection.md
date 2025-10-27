@@ -34,3 +34,15 @@ title: Component Selection
 **Choice:** Option 4: TLV6700DDCR Window Comparator
 
 **Rationale:** A window comparator is the best choice because it would allow for a more specific range of decibels in order to activate the switch--reducing accidental activation. It requires less innovation than a noise gate and limiter would, as neither of those are necessarily made for filtering decibel level in the same way that is required by a clap light. Although more complex than other comparators, it would allow for a more specific range of decibels to be the activation range, reducing accidental light activation. An already-created comparator system such as the TLV6700DDCR is also prefferable to a ciruit equivalent because it only necessitates 1 device, therefore streamling creation and debugging.
+
+**Voltage Regulator**
+
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](LM7805.png)<br>Option 1<br> LM7805 <br>$0.50/each<br>[Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964)                 | \* Simple <br>\* Meets specifications for +5V voltage regulator <br>\* Typical current output is more than enough needed for system                                               | \* Can have problems with overheating <br>\* Might need heatsink system |
+| ![](LD1086DT50TR.png)<br> Option 2 <br> LD1086DT50TR <br>\* $1.29/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/LD1086DT50TR/725468) | \* Current guaranteed until 1.5A (nearly 2 times what is needed) <br>\* Wide working temperature range <br> \* Very consistent voltage output | * Suffers from similar overheating issues as LM7805 <br>\* Only outputs +5V <br>\* More efficient options |               
+
+**Choice:** Option 1: LM7805
+
+**Rationale:** The LM7805--while not as efficient as others and lacking impressive specifications--is perfectly capable of doing what is required by the filter subsystem. Considering that only +5V and a current of ~750mA is necessitated by the system, the specifications given by the LM7805 is more than enough. It must also be pointed out that, as students, we already have easy access to this voltage regulator. It's a simple choice, but the subsystem doesn't need a complex voltage regulator.
+

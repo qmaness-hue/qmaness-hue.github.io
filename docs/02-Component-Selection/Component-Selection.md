@@ -18,6 +18,7 @@ title: Component Selection
 
 **Rationale:** A widely made and used active band-pass filter is better in this application not only because it's smaller and requires less (unnecessary) innovation, but also because--in a real life scenario--it would allow for cheaper, more widely spread manufacturing of the clap light and its hardware/software.
 
+
 ### Decibel Filter
 
 *Table 2: Decibel Filter for Clap Light*
@@ -34,6 +35,11 @@ title: Component Selection
 **Choice:** Option 4: TLV6700DDCR Window Comparator
 
 **Rationale:** A window comparator is the best choice because it would allow for a more specific range of decibels in order to activate the switch--reducing accidental activation. It requires less innovation than a noise gate and limiter would, as neither of those are necessarily made for filtering decibel level in the same way that is required by a clap light. Although more complex than other comparators, it would allow for a more specific range of decibels to be the activation range, reducing accidental light activation. An already-created comparator system such as the TLV6700DDCR is also prefferable to a ciruit equivalent because it only necessitates 1 device, therefore streamling creation and debugging.
+
+
+### Voltage Regulator
+
+*Table 3: Voltage Regulator for Filtering Subsystem*
 
 **Voltage Regulator**
 

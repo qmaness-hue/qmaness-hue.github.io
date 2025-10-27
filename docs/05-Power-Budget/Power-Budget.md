@@ -16,4 +16,4 @@ From the prepare Power Budget, .....
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](PowerBudget.pdf), and a Microsoft Excel Sheet [*here*](PowerBudget_QM.xlsx).
+The power budget as a PDF download is available [*here*](PowerBudget_QM.pdf), and a Microsoft Excel Sheet [*here*](PowerBudget_QM.xlsx).

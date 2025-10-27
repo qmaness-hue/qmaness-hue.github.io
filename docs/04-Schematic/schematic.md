@@ -8,7 +8,7 @@ This schematic is designed to support a system which takes an input audio freque
 
 
 ![schematic](SubsystemSchematicDesign2.3.png){style width:"350" height:"300;"}
-**Figure ##:** The subsystem including the window comparator system and the active band-pass filter.
+**Figure ##:** The subsystem including the window comparator system, the active band-pass filter, and the voltage regulator.
 
 
 ## Resources

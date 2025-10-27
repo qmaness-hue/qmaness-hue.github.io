@@ -21,7 +21,7 @@ for<br>
 ### Project Summary
 
 * ClapSense is a project whos creators aim to create an inclusive, modern, reliable, and inexpensive new clap light that both has immense customization and a simple process for doing so.
-* This datasheet gives an overview of the filtering subsystem. An essential step towards the culmination of our four members' ideas as given in the [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+* This datasheet gives an overview of the filtering subsystem. An essential step towards the culmination of our four members' ideas as given in the [team report.](https://asu-egr304-2025-f-204.github.io/)
 
 
 ### My Contribution

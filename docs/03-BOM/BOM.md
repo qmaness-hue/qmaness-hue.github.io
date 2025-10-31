@@ -30,3 +30,4 @@ BA3835F-E2 Active Band-Pass Filter | 1 | $5.34 | $ 5.34 | ROHM Semiconductor | B
 | Red LED | 1 | $0.15 | $ 0.15 | Würth Elektronik | 151051RS11000 | Peralta 109 | [Datasheet](https://www.we-online.com/components/products/datasheet/151051RS11000.pdf) | D1 |
 | Curiosity Nano PIC18F57Q43 Microchip | 1 | $9.99 | $ 9.99 | Microchip technology | DM164150 | Peralta 109 | [Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F27-47-57Q43-Microcontroller-Data-Sheet-XLP-DS40002147.pdf) | U2 |
 | 10K ohm Potentiometer  | 1 | $1.87 | $ 1.87 | TT Electronics/BI | P160KN-0QC15B10K | Peralta 109 | [Datasheet](https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/P160.pdf) | RV1 |
+| 1.6A Fuse  | 1 | $0.48 | $ 0.48 | Littelfuse Inc. | 021701.6MXP | Peralta 109 | [Datasheet](https://www.littelfuse.com/assetdocs/littelfuse-fuse-217-datasheet?assetguid=af55be94-c42e-41b1-ad43-e070e09443fe) | F1 |

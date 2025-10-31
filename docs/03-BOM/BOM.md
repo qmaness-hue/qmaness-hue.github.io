@@ -14,8 +14,8 @@ This section is the Bill of Materials for the ClapSense decibel and frequency fi
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-BA3835F-E2 Active Band-Pass Filter | 1 | $5.34 | $ 5.34 | ROHM Semiconductor | BA3835F-E2 | [Mouser](https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BA3835F-E2?qs=IsRgwgmxh69SW0igeBnrlg%3D%3D) | [Datasheet](https://www.mouser.com/catalog/specsheets/rohm%20semiconductor_rohms09307-1.pdf) | U1 |
-| TLV6700DDCR Window Comparator | 1 | $1.87 | $ 1.87 | Texas Instruments | TLV6700DDCR | [Digikey](https://www.digikey.com/en/products/detail/texas-instruments/TLV6700DDCR/8635318) | [Datasheet](ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv6700) | U3 |
+BA3835F-E2 Active Band-Pass Filter | 2 | $5.34 | $ 10.68 | ROHM Semiconductor | BA3835F-E2 | [Mouser](https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BA3835F-E2?qs=IsRgwgmxh69SW0igeBnrlg%3D%3D) | [Datasheet](https://www.mouser.com/catalog/specsheets/rohm%20semiconductor_rohms09307-1.pdf) | U1 |
+| TLV6700DDCR Window Comparator | 2 | $1.87 | $ 3.74 | Texas Instruments | TLV6700DDCR | [Digikey](https://www.digikey.com/en/products/detail/texas-instruments/TLV6700DDCR/8635318) | [Datasheet](ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv6700) | U3 |
 | PJ-102AH Barrel Jack | 1 | $0.76 | $ 0.76 | Same Sky | CP-102AH-ND | Peralta 109 | [Datasheet](https://www.sameskydevices.com/product/resource/pj-102ah.pdf) | J1 |
 | 100 Ohm Resistor | 1 | $0.10 | $ 0.10 | Stackpole Electronics Inc | CF14JT100R | Peralta 109 | [Datasheet](https://www.seielect.com/catalog/SEI-CF_CFM.pdf) | R7 |
 | 56K Ohm Resistor | 1 | $0.10 | $ 0.10 | Stackpole Electronics Inc | CF14JT56K0 | Peralta 109 | [Datasheet](https://www.seielect.com/catalog/SEI-CF_CFM.pdf) | R3 |
@@ -26,7 +26,7 @@ BA3835F-E2 Active Band-Pass Filter | 1 | $5.34 | $ 5.34 | ROHM Semiconductor | B
 | 5K Ohm Resistor | 2 | $0.39 | $ 0.78 | Ohmite | 55J5K0E | Peralta 109 | [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7182/res-50.pdf) | R6, R4 |
 | .33uF Ceramic Capacitor | 1 | $0.72 | $ 0.72 | Vishay Beyschlag/Draloric/BC Components | 1C10Z5U334M050B | Peralta 109 | [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2323/1C-9C_Series_Rev_Sep_2015.pdf) | C11 |
 | .1uF Ceramic Capacitor | 9 | $0.24 | $ 2.16 | Vishay Beyschlag/Draloric/BC Components | K104K10X7RF5TL2 | Peralta 109 | [Datasheet](https://www.vishay.com/docs/45171/kseries.pdf) | C1, C2, C3, C4, C5, C7, C8, C9, C10 |
-| .01uF Ceramic Capacitor | 2 | $0.24 | $ 0.48 | KEMET | C410C103Z5U5TA7200 | Peralta 109 | [Datasheet](https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1042_AXIMAX_Z5U) | C12, C13 |
+| .01uF Ceramic Capacitor | 3 | $0.24 | $ 0.72 | KEMET | C410C103Z5U5TA7200 | Peralta 109 | [Datasheet](https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1042_AXIMAX_Z5U) | C12, C13 |
 | Button Switch | 1 | $0.50 | $ 0.50 | SparkFun Electronics | 00097 | Peralta 109 | Not Provided | SW1 |
 | Red LED | 1 | $0.15 | $ 0.15 | Würth Elektronik | 151051RS11000 | Peralta 109 | [Datasheet](https://www.we-online.com/components/products/datasheet/151051RS11000.pdf) | D1 |
 | 1x40 Male Header | 1 | $1.38 | $ 1.38 | Würth Elektronik | 61304011121 | Peralta 109 | [Datasheet](https://www.we-online.com/components/products/datasheet/61304011121.pdf) | H1 |

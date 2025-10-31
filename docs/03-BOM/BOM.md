@@ -14,8 +14,9 @@ This section is the Bill of Materials for the ClapSense decibel and frequency fi
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-Adafruit 1064 electret microphone | 1 | $1.50 | $ 1.50 | Adafruit Industries LLC | 1528-1064-ND | [Adafruit](https://www.adafruit.com/product/1064?srsltid=AfmBOoqTdfn1RZ7pjNVfnxptoAf4FnRAU5qfwtGVnEmYXQ-uwwTKt1z3) | [datasheet link](https://cdn-shop.adafruit.com/datasheets/CMA-4544PF-W.pdf) | MK1 |
-| MCP6022 op amp | 1 | $1.86 | $ 1.86 | Microchip Technology | MCP6022-I/P-ND | Peralta 109 | [datasheet](https://www.digikey.com/en/products/detail/microchip-technology/MCP6022-I-P/417828?s=N4IgTCBcDaILIGEAKA2ADGMBaAkgeiSwDkAREAXQF8g) | U3 |
+BA3835F-E2 Active Band-Pass Filter | 1 | $5.34 | $ 5.34 | ROHM Semiconductor | BA3835F-E2
+ | [Vendor](https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BA3835F-E2?qs=IsRgwgmxh69SW0igeBnrlg%3D%3D) | [datasheet link](https://www.mouser.com/catalog/specsheets/rohm%20semiconductor_rohms09307-1.pdf) | U1 |
+| TLV6700DDCR Window Comparator | 1 | $1.87 | $ 1.87 | Texas Instruments | TLV6700DDCR | [vendor](https://www.digikey.com/en/products/detail/texas-instruments/TLV6700DDCR/8635318) | [datasheet](ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv6700) | U3 |
 | PJ-102AH Barrel Jack | 1 | $0.76 | $ 0.76 | Same Sky | CP-102AH-ND | Peralta 109 | [datasheet link](https://www.sameskydevices.com/product/resource/pj-102ah.pdf) | J3 |
 | 330 ohm resistor | 1 | $0.10 | $ 0.10 | Stackpole Electronics Inc | CF14JT330R | Peralta 109 | [datasheet link](https://www.seielect.com/catalog/SEI-CF_CFM.pdf) | R5 |
 | 2.2K ohm resistor | 1 | $0.10 | $ 0.10 | Stackpole Electronics Inc | CF14JT2K20 | Peralta 109 | [datasheet link](https://www.seielect.com/catalog/SEI-CF_CFM.pdf) | R1 |

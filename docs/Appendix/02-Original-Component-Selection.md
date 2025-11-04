@@ -1,5 +1,5 @@
 ---
-title: Component Selection
+title: Original Component Selection
 ---
 
 ### Frequency Filter

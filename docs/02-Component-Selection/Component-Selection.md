@@ -8,22 +8,23 @@ title: Component Selection
 
 **Light Sensor**
 
+
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](ActiveFilter_qm.png)<br>Option 1<br> Active Band-Pass Filter <br>$1-10/each<br>[Link to tutorial](https://www.electronics-tutorials.ws/filter/filter_7.html)                 | \* Highly adjustable<br>\* Better control over filter characterisitics<br>\* Can meet surface mount constraint of project                                               | \* Requires op-amp (or similar) system<br>\* More complex <br>\* Requires power supply |
-| ![](BA3835F_qm.png)<br> Option 2 <br> BA3835F-E2 Active Band-Pass Filter<br>\* $5.34/each <br>\* [Link to product](https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BA3835F-E2?qs=IsRgwgmxh69SW0igeBnrlg%3D%3D) | \* Easier to work with <br>\* Compact <br> \* Easily repeatable and understood | * More expensive <br>\* Has unadjustable attributes <br>\* Requires power supply |               
-| ![](PassiveFilter_qm.png)<br> Option 3 <br> Passive Band-Pass Filter<br>\* $1-10/each <br>\* [Link to tutorial](https://www.electronics-tutorials.ws/filter/filter_4.html) | \* No power supply needed <br>\* Simple <br> \* Easily repeatable and understood | * Less adjustable <br>\* Would require more innovation to apply <br>\* Could end up being large and/or clunky |
+| ![](TEMT6000X01.png)<br> TEMT6000X01<br>$0.90/each<br>[Link to product](https://www.mouser.com/ProductDetail/Vishay-Semiconductors/TEMT6000X01?qs=%2Fjqivxn91ccZGXDwz0wGxg%3D%3D&srsltid=AfmBOooQdB74AbB3cmws8rrGCeFrnCZulZ_kDPwcyoM4WwAIF_F-DG09)                 | \* Simple analog output<br>\* Fast response and tiny footprint <br>\* Works directly with op-amp/ADC| \* Output is non-linear vs. lux<br>\* Requires biasing and calibration <br>\* Sensitive to angle/spectrum|
+| ![](BH1750FVI.png)<br> BH1750FVI <br> $4.00/each <br> [Link to product](https://www.sunrom.com/p/digital-light-sensor-bh1750fvi?) | \* Reports lux directly via I²C <br>\* Minimal analog design | * Requires I²C + library <br>\* Fixed spectrum/transfer function <br>\* Module size > bare sensor                                                         |
+| ![](VEML7700.png)<br> Adafruit VEML7700 Lux Sensor - I2C Light Sensor - STEMMA QT / Qwiic<br>$5.00/each<br>[Link to product](https://www.adafruit.com/product/4162?srsltid=AfmBOorBHSPB9NFLJcU5ez7-J4arau8XeTmrqw6rngzxuV2-He8xyOAv)                 | \* Wide 0–120 klux, 16-bit <br>\* adjustable gain/integration <br>\* 3.3/5 V friendly and accurate lux output                                               | \* I²C interface required|
 
-**Choice:** Option 2: BA3835F-E2 Active Band-Pass Filter
+**Choice:** TEMT6000
 
-**Rationale:** A widely made and used active band-pass filter is better in this application not only because it's smaller and requires less (unnecessary) innovation, but also because--in a real life scenario--it would allow for cheaper, more widely spread manufacturing of the clap light and its hardware/software.
+**Rationale:** Since there is already an ADC channel, TEMT6000 keeps BOM cost and firmware complexity low while providing fast analog response. If calibrated, it’s sufficient for relative brightness feedback to the LED driver.
 
 
-### Decibel Filter
+### Switch
 
-*Table 2: Decibel Filter for Clap Light*
+*Table 2: Switch for Clap Light Sound Sensor Subsystem*
 
-**Decibel Filter**
+**Switch**
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |

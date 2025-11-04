@@ -557,9 +557,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#decibel-filter" class="md-nav__link">
+  <a href="#switch" class="md-nav__link">
     <span class="md-ellipsis">
-      Decibel Filter
+      Switch
     </span>
   </a>
   
@@ -822,9 +822,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#decibel-filter" class="md-nav__link">
+  <a href="#switch" class="md-nav__link">
     <span class="md-ellipsis">
-      Decibel Filter
+      Switch
     </span>
   </a>
   
@@ -877,27 +877,27 @@
 </thead>
 <tbody>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../ActiveFilter_qm.png" data-desc-position="bottom"><img alt="" src="../ActiveFilter_qm.png"></a><br>Option 1<br> Active Band-Pass Filter <br>$1-10/each<br><a href="https://www.electronics-tutorials.ws/filter/filter_7.html">Link to tutorial</a></td>
-<td>* Highly adjustable<br>* Better control over filter characterisitics<br>* Can meet surface mount constraint of project</td>
-<td>* Requires op-amp (or similar) system<br>* More complex <br>* Requires power supply</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="TEMT6000X01.png" data-desc-position="bottom"><img alt="" src="TEMT6000X01.png"></a><br> TEMT6000X01<br>$0.90/each<br><a href="https://www.mouser.com/ProductDetail/Vishay-Semiconductors/TEMT6000X01?qs=%2Fjqivxn91ccZGXDwz0wGxg%3D%3D&amp;srsltid=AfmBOooQdB74AbB3cmws8rrGCeFrnCZulZ_kDPwcyoM4WwAIF_F-DG09">Link to product</a></td>
+<td>* Simple analog output<br>* Fast response and tiny footprint <br>* Works directly with op-amp/ADC</td>
+<td>* Output is non-linear vs. lux<br>* Requires biasing and calibration <br>* Sensitive to angle/spectrum</td>
 </tr>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../BA3835F_qm.png" data-desc-position="bottom"><img alt="" src="../BA3835F_qm.png"></a><br> Option 2 <br> BA3835F-E2 Active Band-Pass Filter<br>* $5.34/each <br>* <a href="https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BA3835F-E2?qs=IsRgwgmxh69SW0igeBnrlg%3D%3D">Link to product</a></td>
-<td>* Easier to work with <br>* Compact <br> * Easily repeatable and understood</td>
-<td>* More expensive <br>* Has unadjustable attributes <br>* Requires power supply</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="BH1750FVI.png" data-desc-position="bottom"><img alt="" src="BH1750FVI.png"></a><br> BH1750FVI <br> $4.00/each <br> <a href="https://www.sunrom.com/p/digital-light-sensor-bh1750fvi?">Link to product</a></td>
+<td>* Reports lux directly via I²C <br>* Minimal analog design</td>
+<td>* Requires I²C + library <br>* Fixed spectrum/transfer function <br>* Module size &gt; bare sensor</td>
 </tr>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../PassiveFilter_qm.png" data-desc-position="bottom"><img alt="" src="../PassiveFilter_qm.png"></a><br> Option 3 <br> Passive Band-Pass Filter<br>* $1-10/each <br>* <a href="https://www.electronics-tutorials.ws/filter/filter_4.html">Link to tutorial</a></td>
-<td>* No power supply needed <br>* Simple <br> * Easily repeatable and understood</td>
-<td>* Less adjustable <br>* Would require more innovation to apply <br>* Could end up being large and/or clunky</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="VEML7700.png" data-desc-position="bottom"><img alt="" src="VEML7700.png"></a><br> Adafruit VEML7700 Lux Sensor - I2C Light Sensor - STEMMA QT / Qwiic<br>$5.00/each<br><a href="https://www.adafruit.com/product/4162?srsltid=AfmBOorBHSPB9NFLJcU5ez7-J4arau8XeTmrqw6rngzxuV2-He8xyOAv">Link to product</a></td>
+<td>* Wide 0–120 klux, 16-bit <br>* adjustable gain/integration <br>* 3.3/5 V friendly and accurate lux output</td>
+<td>* I²C interface required</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> Option 2: BA3835F-E2 Active Band-Pass Filter</p>
-<p><strong>Rationale:</strong> A widely made and used active band-pass filter is better in this application not only because it's smaller and requires less (unnecessary) innovation, but also because--in a real life scenario--it would allow for cheaper, more widely spread manufacturing of the clap light and its hardware/software.</p>
-<h3 id="decibel-filter">Decibel Filter</h3>
-<p><em>Table 2: Decibel Filter for Clap Light</em></p>
-<p><strong>Decibel Filter</strong></p>
+<p><strong>Choice:</strong> TEMT6000</p>
+<p><strong>Rationale:</strong> Since there is already an ADC channel, TEMT6000 keeps BOM cost and firmware complexity low while providing fast analog response. If calibrated, it’s sufficient for relative brightness feedback to the LED driver.</p>
+<h3 id="switch">Switch</h3>
+<p><em>Table 2: Switch for Clap Light Sound Sensor Subsystem</em></p>
+<p><strong>Switch</strong></p>
 <table>
 <thead>
 <tr>

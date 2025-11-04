@@ -1,6 +1,5 @@
 ---
 title: Original Individual Block Diagram
----
 tags:
 - tag1
 - tag2

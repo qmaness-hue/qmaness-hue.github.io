@@ -877,24 +877,24 @@
 </thead>
 <tbody>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="TEMT6000X01.png" data-desc-position="bottom"><img alt="" src="TEMT6000X01.png"></a><br> TEMT6000X01<br>$0.90/each<br><a href="https://www.mouser.com/ProductDetail/Vishay-Semiconductors/TEMT6000X01?qs=%2Fjqivxn91ccZGXDwz0wGxg%3D%3D&amp;srsltid=AfmBOooQdB74AbB3cmws8rrGCeFrnCZulZ_kDPwcyoM4WwAIF_F-DG09">Link to product</a></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="TEMT6000X01.png" data-desc-position="bottom"><img alt="" src="TEMT6000X01.png"></a><br> Option 1 <br> TEMT6000X01<br>$0.90/each<br><a href="https://www.mouser.com/ProductDetail/Vishay-Semiconductors/TEMT6000X01?qs=%2Fjqivxn91ccZGXDwz0wGxg%3D%3D&amp;srsltid=AfmBOooQdB74AbB3cmws8rrGCeFrnCZulZ_kDPwcyoM4WwAIF_F-DG09">Link to product</a></td>
 <td>* Simple analog output<br>* Fast response and tiny footprint <br>* Works directly with op-amp/ADC</td>
 <td>* Output is non-linear vs. lux<br>* Requires biasing and calibration <br>* Sensitive to angle/spectrum</td>
 </tr>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="BH1750FVI.png" data-desc-position="bottom"><img alt="" src="BH1750FVI.png"></a><br> BH1750FVI <br> $4.00/each <br> <a href="https://www.sunrom.com/p/digital-light-sensor-bh1750fvi?">Link to product</a></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="BH1750FVI.png" data-desc-position="bottom"><img alt="" src="BH1750FVI.png"></a><br> Option 2 <br> BH1750FVI <br> $4.00/each <br> <a href="https://www.sunrom.com/p/digital-light-sensor-bh1750fvi?">Link to product</a></td>
 <td>* Reports lux directly via I²C <br>* Minimal analog design</td>
 <td>* Requires I²C + library <br>* Fixed spectrum/transfer function <br>* Module size &gt; bare sensor</td>
 </tr>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="VEML7700.png" data-desc-position="bottom"><img alt="" src="VEML7700.png"></a><br> Adafruit VEML7700 Lux Sensor - I2C Light Sensor - STEMMA QT / Qwiic<br>$5.00/each<br><a href="https://www.adafruit.com/product/4162?srsltid=AfmBOorBHSPB9NFLJcU5ez7-J4arau8XeTmrqw6rngzxuV2-He8xyOAv">Link to product</a></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="VEML7700.png" data-desc-position="bottom"><img alt="" src="VEML7700.png"></a><br> Option 3 <br> Adafruit VEML7700 Lux Sensor - I2C Light Sensor - STEMMA QT / Qwiic<br>$5.00/each<br><a href="https://www.adafruit.com/product/4162?srsltid=AfmBOorBHSPB9NFLJcU5ez7-J4arau8XeTmrqw6rngzxuV2-He8xyOAv">Link to product</a></td>
 <td>* Wide 0–120 klux, 16-bit <br>* adjustable gain/integration <br>* 3.3/5 V friendly and accurate lux output</td>
 <td>* I²C interface required</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Choice:</strong> TEMT6000</p>
-<p><strong>Rationale:</strong> Since there is already an ADC channel, TEMT6000 keeps BOM cost and firmware complexity low while providing fast analog response. If calibrated, it’s sufficient for relative brightness feedback to the LED driver.</p>
+<p><strong>Rationale:</strong> Since there is already an ADC channel, TEMT6000 keeps BOM cost and firmware complexity low while providing fast analog response. If calibrated, it’s sufficient for brightness feedback to the system.</p>
 <h3 id="switch">Switch</h3>
 <p><em>Table 2: Switch for Clap Light Sound Sensor Subsystem</em></p>
 <p><strong>Switch</strong></p>
@@ -908,31 +908,21 @@
 </thead>
 <tbody>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../One-Knob_NoiseGate.png" data-desc-position="bottom"><img alt="" src="../One-Knob_NoiseGate.png"></a><br>Option 1<br> One-Knob Noise Gate <br>$1-10/each<br><a href="https://effectslayouts.blogspot.com/2016/07/one-knob-noise-gate.html">Link to tutorial</a></td>
-<td>* Highly adjustable<br>* Better control over characterisitics <br>* Can meet surface mount constraint of project</td>
-<td>* Requires large number of parts <br>* Very complex <br>* Requires power supply <br>* Likely to be relatively large</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="CST10T2CR.png" data-desc-position="bottom"><img alt="" src="CST10T2CR.png"></a><br>Option 1<br> CST10T2CR ON/OFF Switch <br>$2.65/each<br><a href="https://www.digikey.com/en/products/detail/cit-relay-and-switch/CST10T2CR/12503245">Link to Product</a></td>
+<td>* Only on and off functions keep it simple <br>* Characterisitics suit project <br>* Durable and high speed</td>
+<td>* Limited customization <br>* Requires power supply</td>
 </tr>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../AudioLimiterCircuit.png" data-desc-position="bottom"><img alt="" src="../AudioLimiterCircuit.png"></a><br> Option 2 <br> Audio Limiter <br>* $1-10/each <br>* <a href="https://www.edn.com/audio-limiter-circuit-schematic/">Link to product</a></td>
-<td>* Less complex <br>* Smaller than alternatives <br> * Highly Adjustable</td>
-<td>* Requires op-amp system <br>* Would require a lot of innovation <br>* Requires power supply</td>
-</tr>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../WindowComparator.png" data-desc-position="bottom"><img alt="" src="../WindowComparator.png"></a><br> Option 3 <br> Window Comparator Circuit <br>* $1-10/each <br>* <a href="https://www.electronics-tutorials.ws/opamp/op-amp-comparator.html">Link to tutorial</a></td>
-<td>* Easily applied <br>* Recieves easily adjustable (with software) range of voltages <br> * Doesn't filter (uses 'switch' instead)</td>
-<td>* Requires extra innovation for easy user adjustabiity <br>* More specific voltage/decibel range than other comparators<br>* Requires power supply <br>* Requires op-amp <br>* More complex than other comparators</td>
-</tr>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../TLV6700DDCR.png" data-desc-position="bottom"><img alt="" src="../TLV6700DDCR.png"></a><br> Option 4 <br> TLV6700DDCR Window Comparator <br>* $1.87/each <br>* <a href="https://www.digikey.com/en/products/detail/texas-instruments/TLV6700DDCR/8635318">Link to product</a></td>
-<td>* Easily applied <br>* Allows for adjustment of thresholds <br> * Doesn't filter (uses 'switch' instead) <br>* Wide range of voltage inputs</td>
-<td>* Requires power supply <br>* More complex than other comparators</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="2449-ANT11SECQE-ND.png" data-desc-position="bottom"><img alt="" src="2449-ANT11SECQE-ND.png"></a><br> Option 2 <br> 2449-ANT11SECQE-ND ON/ON Switch  <br>* $1.94/each <br>* <a href="https://www.digikey.com/en/products/detail/cit-relay-and-switch/ANT11SECQE/12503336">Link to product</a></td>
+<td>* Very compact <br>* Versatile due to ON/ON function <br> * Can offer two different on modes</td>
+<td>* Would require two different on modes to be created <br>* More complex</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> Option 4: TLV6700DDCR Window Comparator</p>
-<p><strong>Rationale:</strong> A window comparator is the best choice because it would allow for a more specific range of decibels in order to activate the switch--reducing accidental activation. It requires less innovation than a noise gate and limiter would, as neither of those are necessarily made for filtering decibel level in the same way that is required by a clap light. Although more complex than other comparators, it would allow for a more specific range of decibels to be the activation range, reducing accidental light activation. An already-created comparator system such as the TLV6700DDCR is also prefferable to a ciruit equivalent because it only necessitates 1 device, therefore streamlining creation and debugging.</p>
+<p><strong>Choice:</strong> Option 1: CST10T2CR ON/OFF Switch</p>
+<p><strong>Rationale:</strong> A simple ON/OFF switch like the one offered by the CST10T2CR is perfectly fine in this application. Seeing as a switch isn't even neccesary (it goes beyond expectations), just having the option itself is more than enough. </p>
 <h3 id="voltage-regulator">Voltage Regulator</h3>
-<p><em>Table 3: Voltage Regulator for Filtering Subsystem</em></p>
+<p><em>Table 3: Voltage Regulator for Sound Sensor Subsystem</em></p>
 <p><strong>Voltage Regulator</strong></p>
 <table>
 <thead>
@@ -956,7 +946,7 @@
 </tbody>
 </table>
 <p><strong>Choice:</strong> Option 1: LM7805</p>
-<p><strong>Rationale:</strong> The LM7805--while not as efficient as others and lacking impressive specifications--is perfectly capable of doing what is required by the filter subsystem. Considering that only +5V and a current of ~750mA is necessitated by the system, the specifications given by the LM7805 is more than enough. It must also be pointed out that, as students, we already have easy access to this voltage regulator. It's a simple choice, and the subsystem doesn't need a complex voltage regulator.</p>
+<p><strong>Rationale:</strong> The LM7805--while not as efficient as others and lacking impressive specifications--is perfectly capable of doing what is required by the subsystem. Considering that only +5V and a current of ~750mA is necessitated by the system, the specifications given by the LM7805 is more than enough. It must also be pointed out that, as students, we already have easy access to this voltage regulator. It's a simple choice, and the subsystem doesn't need a complex voltage regulator.</p>
 
 
 

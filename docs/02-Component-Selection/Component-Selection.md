@@ -11,13 +11,13 @@ title: Component Selection
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](TEMT6000X01.png)<br> TEMT6000X01<br>$0.90/each<br>[Link to product](https://www.mouser.com/ProductDetail/Vishay-Semiconductors/TEMT6000X01?qs=%2Fjqivxn91ccZGXDwz0wGxg%3D%3D&srsltid=AfmBOooQdB74AbB3cmws8rrGCeFrnCZulZ_kDPwcyoM4WwAIF_F-DG09)                 | \* Simple analog output<br>\* Fast response and tiny footprint <br>\* Works directly with op-amp/ADC| \* Output is non-linear vs. lux<br>\* Requires biasing and calibration <br>\* Sensitive to angle/spectrum|
-| ![](BH1750FVI.png)<br> BH1750FVI <br> $4.00/each <br> [Link to product](https://www.sunrom.com/p/digital-light-sensor-bh1750fvi?) | \* Reports lux directly via I²C <br>\* Minimal analog design | * Requires I²C + library <br>\* Fixed spectrum/transfer function <br>\* Module size > bare sensor                                                         |
-| ![](VEML7700.png)<br> Adafruit VEML7700 Lux Sensor - I2C Light Sensor - STEMMA QT / Qwiic<br>$5.00/each<br>[Link to product](https://www.adafruit.com/product/4162?srsltid=AfmBOorBHSPB9NFLJcU5ez7-J4arau8XeTmrqw6rngzxuV2-He8xyOAv)                 | \* Wide 0–120 klux, 16-bit <br>\* adjustable gain/integration <br>\* 3.3/5 V friendly and accurate lux output                                               | \* I²C interface required|
+| ![](TEMT6000X01.png)<br> Option 1 <br> TEMT6000X01<br>$0.90/each<br>[Link to product](https://www.mouser.com/ProductDetail/Vishay-Semiconductors/TEMT6000X01?qs=%2Fjqivxn91ccZGXDwz0wGxg%3D%3D&srsltid=AfmBOooQdB74AbB3cmws8rrGCeFrnCZulZ_kDPwcyoM4WwAIF_F-DG09)                 | \* Simple analog output<br>\* Fast response and tiny footprint <br>\* Works directly with op-amp/ADC| \* Output is non-linear vs. lux<br>\* Requires biasing and calibration <br>\* Sensitive to angle/spectrum|
+| ![](BH1750FVI.png)<br> Option 2 <br> BH1750FVI <br> $4.00/each <br> [Link to product](https://www.sunrom.com/p/digital-light-sensor-bh1750fvi?) | \* Reports lux directly via I²C <br>\* Minimal analog design | * Requires I²C + library <br>\* Fixed spectrum/transfer function <br>\* Module size > bare sensor                                                         |
+| ![](VEML7700.png)<br> Option 3 <br> Adafruit VEML7700 Lux Sensor - I2C Light Sensor - STEMMA QT / Qwiic<br>$5.00/each<br>[Link to product](https://www.adafruit.com/product/4162?srsltid=AfmBOorBHSPB9NFLJcU5ez7-J4arau8XeTmrqw6rngzxuV2-He8xyOAv)                 | \* Wide 0–120 klux, 16-bit <br>\* adjustable gain/integration <br>\* 3.3/5 V friendly and accurate lux output                                               | \* I²C interface required|
 
 **Choice:** TEMT6000
 
-**Rationale:** Since there is already an ADC channel, TEMT6000 keeps BOM cost and firmware complexity low while providing fast analog response. If calibrated, it’s sufficient for relative brightness feedback to the LED driver.
+**Rationale:** Since there is already an ADC channel, TEMT6000 keeps BOM cost and firmware complexity low while providing fast analog response. If calibrated, it’s sufficient for brightness feedback to the system.
 
 
 ### Switch
@@ -28,19 +28,18 @@ title: Component Selection
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](One-Knob_NoiseGate.png)<br>Option 1<br> One-Knob Noise Gate <br>$1-10/each<br>[Link to tutorial](https://effectslayouts.blogspot.com/2016/07/one-knob-noise-gate.html)                 | \* Highly adjustable<br>\* Better control over characterisitics <br>\* Can meet surface mount constraint of project         | \* Requires large number of parts <br>\* Very complex <br>\* Requires power supply <br>\* Likely to be relatively large |
-| ![](AudioLimiterCircuit.png)<br> Option 2 <br> Audio Limiter <br>\* $1-10/each <br>\* [Link to product](https://www.edn.com/audio-limiter-circuit-schematic/) | \* Less complex <br>\* Smaller than alternatives <br> \* Highly Adjustable | * Requires op-amp system <br>\* Would require a lot of innovation <br>\* Requires power supply |               
-| ![](WindowComparator.png)<br> Option 3 <br> Window Comparator Circuit <br>\* $1-10/each <br>\* [Link to tutorial](https://www.electronics-tutorials.ws/opamp/op-amp-comparator.html) | \* Easily applied <br>\* Recieves easily adjustable (with software) range of voltages <br> \* Doesn't filter (uses 'switch' instead) | * Requires extra innovation for easy user adjustabiity <br>\* More specific voltage/decibel range than other comparators<br>\* Requires power supply <br>\* Requires op-amp <br>\* More complex than other comparators |
-| ![](TLV6700DDCR.png)<br> Option 4 <br> TLV6700DDCR Window Comparator <br>\* $1.87/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/TLV6700DDCR/8635318) | \* Easily applied <br>\* Allows for adjustment of thresholds <br> \* Doesn't filter (uses 'switch' instead) <br>\* Wide range of voltage inputs| * Requires power supply <br>\* More complex than other comparators |
+| ![](CST10T2CR.png)<br>Option 1<br> CST10T2CR ON/OFF Switch <br>$2.65/each<br>[Link to Product](https://www.digikey.com/en/products/detail/cit-relay-and-switch/CST10T2CR/12503245)                 | \* Only on and off functions keep it simple <br>\* Characterisitics suit project <br>\* Durable and high speed         | \* Limited customization <br>\* Requires power supply|
+| ![](2449-ANT11SECQE-ND.png)<br> Option 2 <br> 2449-ANT11SECQE-ND ON/ON Switch  <br>\* $1.94/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/cit-relay-and-switch/ANT11SECQE/12503336) | \* Very compact <br>\* Versatile due to ON/ON function <br> \* Can offer two different on modes | \* Would require two different on modes to be created <br>\* More complex |              
 
-**Choice:** Option 4: TLV6700DDCR Window Comparator
+**Choice:** Option 1: CST10T2CR ON/OFF Switch
 
-**Rationale:** A window comparator is the best choice because it would allow for a more specific range of decibels in order to activate the switch--reducing accidental activation. It requires less innovation than a noise gate and limiter would, as neither of those are necessarily made for filtering decibel level in the same way that is required by a clap light. Although more complex than other comparators, it would allow for a more specific range of decibels to be the activation range, reducing accidental light activation. An already-created comparator system such as the TLV6700DDCR is also prefferable to a ciruit equivalent because it only necessitates 1 device, therefore streamlining creation and debugging.
+**Rationale:** A simple ON/OFF switch like the one offered by the CST10T2CR is perfectly fine in this application. Seeing as a switch isn't even neccesary (it goes beyond expectations), just having the option itself is more than enough. 
+
 
 
 ### Voltage Regulator
 
-*Table 3: Voltage Regulator for Filtering Subsystem*
+*Table 3: Voltage Regulator for Sound Sensor Subsystem*
 
 **Voltage Regulator**
 
@@ -51,5 +50,5 @@ title: Component Selection
 
 **Choice:** Option 1: LM7805
 
-**Rationale:** The LM7805--while not as efficient as others and lacking impressive specifications--is perfectly capable of doing what is required by the filter subsystem. Considering that only +5V and a current of ~750mA is necessitated by the system, the specifications given by the LM7805 is more than enough. It must also be pointed out that, as students, we already have easy access to this voltage regulator. It's a simple choice, and the subsystem doesn't need a complex voltage regulator.
+**Rationale:** The LM7805--while not as efficient as others and lacking impressive specifications--is perfectly capable of doing what is required by the subsystem. Considering that only +5V and a current of ~750mA is necessitated by the system, the specifications given by the LM7805 is more than enough. It must also be pointed out that, as students, we already have easy access to this voltage regulator. It's a simple choice, and the subsystem doesn't need a complex voltage regulator.
 

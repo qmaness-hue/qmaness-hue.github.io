@@ -891,10 +891,15 @@
 <td>* Wide 0–120 klux, 16-bit <br>* adjustable gain/integration <br>* 3.3/5 V friendly and accurate lux output</td>
 <td>* I²C interface required</td>
 </tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="PDV-P5003.png" data-desc-position="bottom"><img alt="" src="PDV-P5003.png"></a><br> Option 4 <br> PDV-P5003 Photo-Resistor <br>$1.54/each<br><a href="https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P5003/480601?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20232005509&amp;gbraid=0AAAAADrbLlhkYAWNMNTozepAbTv2ccVwy&amp;gclid=Cj0KCQiAq7HIBhDoARIsAOATDxBoWV_Mcap_0-JiqJw5yr9BXxVhOUe6OAGBLrxOzEh_MJes9yKxfcEaAtMhEALw_wcB">Link to product</a></td>
+<td>* Very simple and easy to use <br>* Small footprint <br>* Works directly with op-amp (we had a lab using a photoresistor</td>
+<td>* Has no function aside from resistor and light sensor <br>* Less complex usability</td>
+</tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> TEMT6000</p>
-<p><strong>Rationale:</strong> Since there is already an ADC channel, TEMT6000 keeps BOM cost and firmware complexity low while providing fast analog response. If calibrated, it’s sufficient for brightness feedback to the system.</p>
+<p><strong>Choice:</strong> Option 4: PDV-P5003 Photo-Resistor</p>
+<p><strong>Rationale:</strong> The PDV-P5003 Photo-Resistor keeps BOM cost and firmware complexity low while providing fast analog response. It doesn't need to be calibrated in the same way as a phototransistor as is extremely simple and easy to adjust/use.</p>
 <h3 id="switch">Switch</h3>
 <p><em>Table 2: Switch for Clap Light Sound Sensor Subsystem</em></p>
 <p><strong>Switch</strong></p>

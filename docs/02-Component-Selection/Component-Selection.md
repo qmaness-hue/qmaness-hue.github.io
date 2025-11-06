@@ -14,10 +14,11 @@ title: Component Selection
 | ![](TEMT6000.png)<br> Option 1 <br> TEMT6000X01<br>$0.90/each<br>[Link to product](https://www.mouser.com/ProductDetail/Vishay-Semiconductors/TEMT6000X01?qs=%2Fjqivxn91ccZGXDwz0wGxg%3D%3D&srsltid=AfmBOooQdB74AbB3cmws8rrGCeFrnCZulZ_kDPwcyoM4WwAIF_F-DG09)                 | \* Simple analog output<br>\* Fast response and tiny footprint <br>\* Works directly with op-amp/ADC| \* Output is non-linear vs. lux<br>\* Requires biasing and calibration <br>\* Sensitive to angle/spectrum|
 | ![](BH1750FVI.png)<br> Option 2 <br> BH1750FVI <br> $4.00/each <br> [Link to product](https://www.sunrom.com/p/digital-light-sensor-bh1750fvi?) | \* Reports lux directly via I²C <br>\* Minimal analog design | * Requires I²C + library <br>\* Fixed spectrum/transfer function <br>\* Module size > bare sensor                                                         |
 | ![](VEML7700.png)<br> Option 3 <br> Adafruit VEML7700 Lux Sensor - I2C Light Sensor - STEMMA QT / Qwiic<br>$5.00/each<br>[Link to product](https://www.adafruit.com/product/4162?srsltid=AfmBOorBHSPB9NFLJcU5ez7-J4arau8XeTmrqw6rngzxuV2-He8xyOAv)                 | \* Wide 0–120 klux, 16-bit <br>\* adjustable gain/integration <br>\* 3.3/5 V friendly and accurate lux output                                               | \* I²C interface required|
+| ![](PDV-P5003.png)<br> Option 4 <br> PDV-P5003 Photo-Resistor <br>$1.54/each<br>[Link to product](https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P5003/480601?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLlhkYAWNMNTozepAbTv2ccVwy&gclid=Cj0KCQiAq7HIBhDoARIsAOATDxBoWV_Mcap_0-JiqJw5yr9BXxVhOUe6OAGBLrxOzEh_MJes9yKxfcEaAtMhEALw_wcB)                 | \* Very simple and easy to use <br>\* Small footprint <br>\* Works directly with op-amp (we had a lab using a photoresistor| \* Has no function aside from resistor and light sensor <br>\* Less complex usability|
 
-**Choice:** TEMT6000
+**Choice:** Option 4: PDV-P5003 Photo-Resistor
 
-**Rationale:** Since there is already an ADC channel, TEMT6000 keeps BOM cost and firmware complexity low while providing fast analog response. If calibrated, it’s sufficient for brightness feedback to the system.
+**Rationale:** The PDV-P5003 Photo-Resistor keeps BOM cost and firmware complexity low while providing fast analog response. It doesn't need to be calibrated in the same way as a phototransistor as is extremely simple and easy to adjust/use.
 
 
 ### Switch

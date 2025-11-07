@@ -4,13 +4,13 @@ title: Schematic
 
 ## Overview
 
-This schematic is designed to support a system which takes an input audio frequency and decibel level and filters each separately so that only the frequency and decibel of a clap are output. Therefore, if the input sound was a clap, there will be values for both decibel level and frequency. Digital outputs will be determined by whether or not the filtered frequency and/or decibel give values. These outputs will be sent to the other team members' subsystems, which will then be used to determine whether or not to turn on the light (based on if the outputs indicate a clap).
+This schematic is designed to support a system that utilizes a light sensor to determine whether or not the clap light being on is necessary or not. In a case where there's enough light in front of the sensor (placed away from the clap light), then the clap light will automatically be shut off to save power. Seeing as this system might not work with every individuals case--or they may not want this system in place--the subsystem also has an external switch to turn it on or off.
 
 
-![schematic](SubsystemSchematicDesign2.30.png){style width:"350" height:"300;"}
-**Figure ##:** The subsystem including the window comparator system, the active band-pass filter, and the voltage regulator.
+![schematic](SubsystemSchematicDesign2.0.png){style width:"350" height:"300;"}
+**Figure ##:** The subsystem including the the light sensor, it's OPAMP system, the voltage regulator, debugging devices, and the ON/OFF switch.
 
 
 ## Resources
 
-The schematic as a PDF download is available [*here*](SubsystemSchematicDesign2.30.pdf), and the Zip folder of the project [*here*](SubsystemSchematicDesign2.30.zip).
+The schematic as a PDF download is available [*here*](SubsystemSchematicDesign2.0.pdf), and the Zip folder of the project [*here*](SubsystemSchematicDesign2.30.zip).

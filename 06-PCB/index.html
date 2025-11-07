@@ -9,16 +9,16 @@
       
       
       
-        <link rel="canonical" href="https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/02-Original-Component-Selection/">
+        <link rel="canonical" href="https://embedded-systems-design.github.io/EGR304DataSheetTemplate/06-PCB/">
       
       
-        <link rel="prev" href="../01-Original-Block-Diagram/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../04-Original-Schematic/">
+        <link rel="next" href="../01-Block-Diagram/Block-Diagram/">
       
       
-      <link rel="icon" href="../../static/logo304.png">
+      <link rel="icon" href="../static/logo304.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
             
 
@@ -26,14 +26,14 @@
 
     
       
-        <title>Original Component Selection - EGR 304 Quinn Data Sheet</title>
+        <title>PCB - EGR 304 Quinn Data Sheet</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.66ac8b77.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.66ac8b77.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,9 +52,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -63,7 +63,7 @@
     
 
 
-  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#frequency-filter" class="md-skip">
+        <a href="#overview" class="md-skip">
           Skip to content
         </a>
       
@@ -106,9 +106,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="EGR 304 Quinn Data Sheet" class="md-header__button md-logo" aria-label="EGR 304 Quinn Data Sheet" data-md-component="logo">
+    <a href=".." title="EGR 304 Quinn Data Sheet" class="md-header__button md-logo" aria-label="EGR 304 Quinn Data Sheet" data-md-component="logo">
       
-  <img src="../../static/logo304.svg" alt="logo">
+  <img src="../static/logo304.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Original Component Selection
+              PCB
             
           </span>
         </div>
@@ -200,7 +200,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href=".." class="md-tabs__link">
         
   
     
@@ -215,9 +215,11 @@
         
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../../06-PCB/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
     
@@ -236,7 +238,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../01-Block-Diagram/Block-Diagram/" class="md-tabs__link">
+        <a href="../01-Block-Diagram/Block-Diagram/" class="md-tabs__link">
           
   
     
@@ -256,7 +258,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../02-Component-Selection/Component-Selection/" class="md-tabs__link">
+        <a href="../02-Component-Selection/Component-Selection/" class="md-tabs__link">
           
   
     
@@ -276,7 +278,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../03-BOM/BOM/" class="md-tabs__link">
+        <a href="../03-BOM/BOM/" class="md-tabs__link">
           
   
     
@@ -296,7 +298,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../04-Schematic/schematic/" class="md-tabs__link">
+        <a href="../04-Schematic/schematic/" class="md-tabs__link">
           
   
     
@@ -316,7 +318,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../05-Power-Budget/Power-Budget/" class="md-tabs__link">
+        <a href="../05-Power-Budget/Power-Budget/" class="md-tabs__link">
           
   
     
@@ -332,13 +334,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../Appendix/" class="md-tabs__link">
           
   
     
@@ -379,9 +379,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="EGR 304 Quinn Data Sheet" class="md-nav__button md-logo" aria-label="EGR 304 Quinn Data Sheet" data-md-component="logo">
+    <a href=".." title="EGR 304 Quinn Data Sheet" class="md-nav__button md-logo" aria-label="EGR 304 Quinn Data Sheet" data-md-component="logo">
       
-  <img src="../../static/logo304.svg" alt="logo">
+  <img src="../static/logo304.svg" alt="logo">
 
     </a>
     EGR 304 Quinn Data Sheet
@@ -408,7 +408,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -425,10 +425,28 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../06-PCB/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    PCB
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -437,6 +455,42 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -468,7 +522,7 @@
         
   
   
-    <a href="../../01-Block-Diagram/Block-Diagram/" class="md-nav__link">
+    <a href="../01-Block-Diagram/Block-Diagram/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -514,7 +568,7 @@
         
   
   
-    <a href="../../02-Component-Selection/Component-Selection/" class="md-nav__link">
+    <a href="../02-Component-Selection/Component-Selection/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -560,7 +614,7 @@
         
   
   
-    <a href="../../03-BOM/BOM/" class="md-nav__link">
+    <a href="../03-BOM/BOM/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -606,7 +660,7 @@
         
   
   
-    <a href="../../04-Schematic/schematic/" class="md-nav__link">
+    <a href="../04-Schematic/schematic/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -652,7 +706,7 @@
         
   
   
-    <a href="../../05-Power-Budget/Power-Budget/" class="md-nav__link">
+    <a href="../05-Power-Budget/Power-Budget/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -675,8 +729,6 @@
       
   
   
-    
-  
   
   
     
@@ -703,261 +755,33 @@
     
     
       
-        
-        
-      
       
     
     
       
+        
+        
+      
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
         
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
-        
-          
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
-              
+  
+  
+    <a href="../Appendix/" class="md-nav__link">
+      
   
   <span class="md-ellipsis">
     Appendix
   </span>
   
 
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_8">
-            <span class="md-nav__icon md-icon"></span>
-            Appendix
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../01-Original-Block-Diagram/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Original Individual Block Diagram
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+        <span class="md-nav__icon md-icon"></span>
       
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Original Component Selection
-  </span>
+    </a>
   
 
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Original Component Selection
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#frequency-filter" class="md-nav__link">
-    <span class="md-ellipsis">
-      Frequency Filter
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#decibel-filter" class="md-nav__link">
-    <span class="md-ellipsis">
-      Decibel Filter
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#voltage-regulator" class="md-nav__link">
-    <span class="md-ellipsis">
-      Voltage Regulator
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../04-Original-Schematic/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Original Schematic Design
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../another-subfile/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Appendix - Another Subfile
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../basic-markdown-examples/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Appendix - Basic Markdown Examples
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../charts/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Appendix - Charts Example
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../esp-32-table/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Appendix - Example Controller Table for the ESP32
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -988,27 +812,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#frequency-filter" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Frequency Filter
+      Overview
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#decibel-filter" class="md-nav__link">
+  <a href="#resources" class="md-nav__link">
     <span class="md-ellipsis">
-      Decibel Filter
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#voltage-regulator" class="md-nav__link">
-    <span class="md-ellipsis">
-      Voltage Regulator
+      Resources
     </span>
   </a>
   
@@ -1029,7 +844,7 @@
                   
 
   
-    <a href="https://github.com/embedded-systems-design/EGR304DataSheetTemplate/edit/main/docs/Appendix/02-Original-Component-Selection.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/embedded-systems-design/EGR304DataSheetTemplate/edit/main/docs/06-PCB.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"></path></svg>
     </a>
@@ -1037,101 +852,13 @@
   
 
 
-  <h1>Original Component Selection</h1>
+  <h1>PCB</h1>
 
-<h3 id="frequency-filter">Frequency Filter</h3>
-<p><em>Table 1: Frequency Filter for Clap Light</em></p>
-<p><strong>Frequency Filter</strong></p>
-<table>
-<thead>
-<tr>
-<th><strong>Solution</strong></th>
-<th><strong>Pros</strong></th>
-<th><strong>Cons</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="ActiveFilter_qm.png" data-desc-position="bottom"><img alt="" src="ActiveFilter_qm.png"></a><br>Option 1<br> Active Band-Pass Filter <br>$1-10/each<br><a href="https://www.electronics-tutorials.ws/filter/filter_7.html">Link to tutorial</a></td>
-<td>* Highly adjustable<br>* Better control over filter characterisitics<br>* Can meet surface mount constraint of project</td>
-<td>* Requires op-amp (or similar) system<br>* More complex <br>* Requires power supply</td>
-</tr>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="BA3835F_qm.png" data-desc-position="bottom"><img alt="" src="BA3835F_qm.png"></a><br> Option 2 <br> BA3835F-E2 Active Band-Pass Filter<br>* $5.34/each <br>* <a href="https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BA3835F-E2?qs=IsRgwgmxh69SW0igeBnrlg%3D%3D">Link to product</a></td>
-<td>* Easier to work with <br>* Compact <br> * Easily repeatable and understood</td>
-<td>* More expensive <br>* Has unadjustable attributes <br>* Requires power supply</td>
-</tr>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="PassiveFilter_qm.png" data-desc-position="bottom"><img alt="" src="PassiveFilter_qm.png"></a><br> Option 3 <br> Passive Band-Pass Filter<br>* $1-10/each <br>* <a href="https://www.electronics-tutorials.ws/filter/filter_4.html">Link to tutorial</a></td>
-<td>* No power supply needed <br>* Simple <br> * Easily repeatable and understood</td>
-<td>* Less adjustable <br>* Would require more innovation to apply <br>* Could end up being large and/or clunky</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Choice:</strong> Option 2: BA3835F-E2 Active Band-Pass Filter</p>
-<p><strong>Rationale:</strong> A widely made and used active band-pass filter is better in this application not only because it's smaller and requires less (unnecessary) innovation, but also because--in a real life scenario--it would allow for cheaper, more widely spread manufacturing of the clap light and its hardware/software.</p>
-<h3 id="decibel-filter">Decibel Filter</h3>
-<p><em>Table 2: Decibel Filter for Clap Light</em></p>
-<p><strong>Decibel Filter</strong></p>
-<table>
-<thead>
-<tr>
-<th><strong>Solution</strong></th>
-<th><strong>Pros</strong></th>
-<th><strong>Cons</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="One-Knob_NoiseGate.png" data-desc-position="bottom"><img alt="" src="One-Knob_NoiseGate.png"></a><br>Option 1<br> One-Knob Noise Gate <br>$1-10/each<br><a href="https://effectslayouts.blogspot.com/2016/07/one-knob-noise-gate.html">Link to tutorial</a></td>
-<td>* Highly adjustable<br>* Better control over characterisitics <br>* Can meet surface mount constraint of project</td>
-<td>* Requires large number of parts <br>* Very complex <br>* Requires power supply <br>* Likely to be relatively large</td>
-</tr>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="AudioLimiterCircuit.png" data-desc-position="bottom"><img alt="" src="AudioLimiterCircuit.png"></a><br> Option 2 <br> Audio Limiter <br>* $1-10/each <br>* <a href="https://www.edn.com/audio-limiter-circuit-schematic/">Link to product</a></td>
-<td>* Less complex <br>* Smaller than alternatives <br> * Highly Adjustable</td>
-<td>* Requires op-amp system <br>* Would require a lot of innovation <br>* Requires power supply</td>
-</tr>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="WindowComparator.png" data-desc-position="bottom"><img alt="" src="WindowComparator.png"></a><br> Option 3 <br> Window Comparator Circuit <br>* $1-10/each <br>* <a href="https://www.electronics-tutorials.ws/opamp/op-amp-comparator.html">Link to tutorial</a></td>
-<td>* Easily applied <br>* Recieves easily adjustable (with software) range of voltages <br> * Doesn't filter (uses 'switch' instead)</td>
-<td>* Requires extra innovation for easy user adjustabiity <br>* More specific voltage/decibel range than other comparators<br>* Requires power supply <br>* Requires op-amp <br>* More complex than other comparators</td>
-</tr>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="TLV6700DDCR.png" data-desc-position="bottom"><img alt="" src="TLV6700DDCR.png"></a><br> Option 4 <br> TLV6700DDCR Window Comparator <br>* $1.87/each <br>* <a href="https://www.digikey.com/en/products/detail/texas-instruments/TLV6700DDCR/8635318">Link to product</a></td>
-<td>* Easily applied <br>* Allows for adjustment of thresholds <br> * Doesn't filter (uses 'switch' instead) <br>* Wide range of voltage inputs</td>
-<td>* Requires power supply <br>* More complex than other comparators</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Choice:</strong> Option 4: TLV6700DDCR Window Comparator</p>
-<p><strong>Rationale:</strong> A window comparator is the best choice because it would allow for a more specific range of decibels in order to activate the switch--reducing accidental activation. It requires less innovation than a noise gate and limiter would, as neither of those are necessarily made for filtering decibel level in the same way that is required by a clap light. Although more complex than other comparators, it would allow for a more specific range of decibels to be the activation range, reducing accidental light activation. An already-created comparator system such as the TLV6700DDCR is also prefferable to a ciruit equivalent because it only necessitates 1 device, therefore streamlining creation and debugging.</p>
-<h3 id="voltage-regulator">Voltage Regulator</h3>
-<p><em>Table 3: Voltage Regulator for Filtering Subsystem</em></p>
-<p><strong>Voltage Regulator</strong></p>
-<table>
-<thead>
-<tr>
-<th><strong>Solution</strong></th>
-<th><strong>Pros</strong></th>
-<th><strong>Cons</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="LM7805.png" data-desc-position="bottom"><img alt="" src="LM7805.png"></a><br>Option 1<br> LM7805 <br>$0.50/each<br><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964">Link to product</a></td>
-<td>* Simple <br>* Meets specifications for +5V voltage regulator <br>* Typical current output is more than enough needed for system</td>
-<td>* Can have problems with overheating <br>* Might need heatsink system</td>
-</tr>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="LD1086DT50TR.png" data-desc-position="bottom"><img alt="" src="LD1086DT50TR.png"></a><br> Option 2 <br> LD1086DT50TR <br>* $1.29/each <br>* <a href="https://www.digikey.com/en/products/detail/stmicroelectronics/LD1086DT50TR/725468">Link to product</a></td>
-<td>* Current guaranteed until 1.5A (nearly 2 times what is needed) <br>* Wide working temperature range <br> * Very consistent voltage output</td>
-<td>* Suffers from similar overheating issues as LM7805 <br>* Only outputs +5V <br>* More efficient options</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Choice:</strong> Option 1: LM7805</p>
-<p><strong>Rationale:</strong> The LM7805--while not as efficient as others and lacking impressive specifications--is perfectly capable of doing what is required by the filter subsystem. Considering that only +5V and a current of ~750mA is necessitated by the system, the specifications given by the LM7805 is more than enough. It must also be pointed out that, as students, we already have easy access to this voltage regulator. It's a simple choice, and the subsystem doesn't need a complex voltage regulator.</p>
+<h2 id="overview">Overview</h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="SubsystemSchematicDesign2.30.png" data-desc-position="bottom"><img alt="schematic" height:_300_="height:&quot;300;&quot;" src="SubsystemSchematicDesign2.30.png" style="style" width:_350_="width:&quot;350&quot;"></a>
+<strong>Figure ##:</strong> The subsystem including the window comparator system, the active band-pass filter, and the voltage regulator.</p>
+<h2 id="resources">Resources</h2>
+<p>The schematic as a PDF download is available <a href="SubsystemSchematicDesign2.30.pdf"><em>here</em></a>, and the Zip folder of the project <a href="SubsystemSchematicDesign2.30.zip"><em>here</em></a>.</p>
 
 
 
@@ -1170,7 +897,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer">
         
           
-          <a href="../01-Original-Block-Diagram/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Original Individual Block Diagram">
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Welcome">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
@@ -1180,20 +907,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Original Individual Block Diagram
+                Welcome
               </div>
             </div>
           </a>
         
         
           
-          <a href="../04-Original-Schematic/" class="md-footer__link md-footer__link--next" aria-label="Next: Original Schematic Design">
+          <a href="../01-Block-Diagram/Block-Diagram/" class="md-footer__link md-footer__link--next" aria-label="Next: Individual Block Diagram">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Original Schematic Design
+                Individual Block Diagram
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1238,12 +965,12 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.follow", "navigation.top", "navigation.path", "navigation.indexes", "navigation.prune", "content.action.edit", "navigation.footer"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.follow", "navigation.top", "navigation.path", "navigation.indexes", "navigation.prune", "content.action.edit", "navigation.footer"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.3220b9d7.min.js"></script>
+      <script src="../assets/javascripts/bundle.3220b9d7.min.js"></script>
       
-        <script src="../../javascripts/mathjax.js"></script>
+        <script src="../javascripts/mathjax.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       

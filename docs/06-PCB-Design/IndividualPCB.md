@@ -16,5 +16,7 @@ Below are the front and back of the PCB design for the light sensor subsystem of
 ## Resources
 
 The PCB front as a PDF download is available [*here*](SubsystemSchematicPCB.front.pdf).
+
 The PCB back as a PDF download is available [*here*](SubsystemSchematicPCB.back.pdf).
+
 The Zip folder of the project [*here*](SubsystemSchematicDesign2.0.zip)..

@@ -19,4 +19,6 @@ The PCB front as a PDF download is available [*here*](SubsystemSchematicPCB.fron
 
 The PCB back as a PDF download is available [*here*](SubsystemSchematicPCB.back.pdf).
 
-The Zip folder of the project [*here*](SubsystemSchematicDesign2.0.zip)..
+The Zip file of the project [*here*](SubsystemSchematicDesign2.0.zip).
+
+The Zip file containing the Gerber Files of the PCB [*here*](QuinnManess204.zip).

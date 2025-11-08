@@ -1,5 +1,5 @@
 ---
-title: 06-PCB
+title: PCB
 ---
 
 ## Overview

@@ -31,12 +31,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/EGR304DataSheetTemplate/06-PCB/IndividualPCB/</loc>
+         <loc>https://embedded-systems-design.github.io/EGR304DataSheetTemplate/06-PCB/pcb/</loc>
          <lastmod>2025-11-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/EGR304DataSheetTemplate/06-PCB/pcb/</loc>
+         <loc>https://embedded-systems-design.github.io/EGR304DataSheetTemplate/06-PCB-Design/IndividualPCB/</loc>
          <lastmod>2025-11-08</lastmod>
          <changefreq>daily</changefreq>
     </url>

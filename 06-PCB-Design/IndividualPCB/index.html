@@ -9,13 +9,13 @@
       
       
       
-        <link rel="canonical" href="https://embedded-systems-design.github.io/EGR304DataSheetTemplate/06-PCB/IndividualPCB/">
+        <link rel="canonical" href="https://embedded-systems-design.github.io/EGR304DataSheetTemplate/06-PCB-Design/IndividualPCB/">
       
       
-        <link rel="prev" href="../../05-Power-Budget/Power-Budget/">
+        <link rel="prev" href="../../06-PCB/pcb/">
       
       
-        <link rel="next" href="../pcb/">
+        <link rel="next" href="../../Appendix/">
       
       
       <link rel="icon" href="../../static/logo304.png">
@@ -315,6 +315,26 @@
         
   
   
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../06-PCB/pcb/" class="md-tabs__link">
+          
+  
+    
+  
+  06 PCB
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
     
   
   
@@ -326,7 +346,7 @@
   
     
   
-  06 PCB
+  06 PCB Design
 
         </a>
       </li>
@@ -658,14 +678,58 @@
       
   
   
-    
-  
   
   
     
     
       
         
+      
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../06-PCB/pcb/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    06 PCB
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
       
         
       
@@ -684,24 +748,24 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
         
           
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
             
   
   <span class="md-ellipsis">
-    06 PCB
+    06 PCB Design
   </span>
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_7">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
-            06 PCB
+            06 PCB Design
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -775,27 +839,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../pcb/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    PCB
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -927,7 +970,7 @@
                   
 
   
-    <a href="https://github.com/embedded-systems-design/EGR304DataSheetTemplate/edit/main/docs/06-PCB/IndividualPCB.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/embedded-systems-design/EGR304DataSheetTemplate/edit/main/docs/06-PCB-Design/IndividualPCB.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"></path></svg>
     </a>
@@ -938,10 +981,14 @@
   <h1>PCB</h1>
 
 <h2 id="overview">Overview</h2>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="SubsystemSchematicDesign2.30.png" data-desc-position="bottom"><img alt="schematic" height:_300_="height:&quot;300;&quot;" src="SubsystemSchematicDesign2.30.png" style="style" width:_350_="width:&quot;350&quot;"></a>
-<strong>Figure ##:</strong> The subsystem including the window comparator system, the active band-pass filter, and the voltage regulator.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="SubsystemSchematicPCB.front.png" data-desc-position="bottom"><img alt="pcbfront" height:_300_="height:&quot;300;&quot;" src="SubsystemSchematicPCB.front.png" style="style" width:_350_="width:&quot;350&quot;"></a>
+<strong>Figure ##:</strong> The front of the subsystem PCB.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="SubsystemSchematicPCB.back.png" data-desc-position="bottom"><img alt="pcbback" height:_300_="height:&quot;300;&quot;" src="SubsystemSchematicPCB.back.png" style="style" width:_350_="width:&quot;350&quot;"></a>
+<strong>Figure ##:</strong> The back of the subsystem PCB.</p>
 <h2 id="resources">Resources</h2>
-<p>The schematic as a PDF download is available <a href="SubsystemSchematicDesign2.30.pdf"><em>here</em></a>, and the Zip folder of the project <a href="SubsystemSchematicDesign2.30.zip"><em>here</em></a>.</p>
+<p>The PCB front as a PDF download is available <a href="SubsystemSchematicPCB.front.pdf"><em>here</em></a>
+The PCB back as a PDF download is available <a href="SubsystemSchematicPCB.back.pdf"><em>here</em></a>
+The Zip folder of the project <a href="SubsystemSchematicDesign2.30.zip"><em>here</em></a>.</p>
 
 
 
@@ -980,7 +1027,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer">
         
           
-          <a href="../../05-Power-Budget/Power-Budget/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Power Budget">
+          <a href="../../06-PCB/pcb/" class="md-footer__link md-footer__link--prev" aria-label="Previous: PCB">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
@@ -990,20 +1037,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Power Budget
+                PCB
               </div>
             </div>
           </a>
         
         
           
-          <a href="../pcb/" class="md-footer__link md-footer__link--next" aria-label="Next: PCB">
+          <a href="../../Appendix/" class="md-footer__link md-footer__link--next" aria-label="Next: Appendix - Main Page">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                PCB
+                Appendix - Main Page
               </div>
             </div>
             <div class="md-footer__button md-icon">

@@ -10,7 +10,7 @@ Below are the main PCB, front copper plate, and the back plate of the PCB design
 ![pcball](LightSensorPCB.all.png){style width:"350" height:"300;"}
 
 **Figure 2:** The front of the subsystem PCB.
-![pcbfront](LightSensor.front.png){style width:"350" height:"300;"}
+![pcbfront](LightSensorPCB.front.png){style width:"350" height:"300;"}
 
 **Figure 3:** The back of the subsystem PCB.
 ![pcbback](LightSensorPCB.png){style width:"350" height:"300;"}

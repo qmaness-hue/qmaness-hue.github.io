@@ -36,5 +36,5 @@ for<br>
 * As for the code that went into my individual PIC microcontroller, look to the ["Microcontoller Code."](https://qmaness-hue.github.io/07-Microcontroller-Code/Code/)
 * For any supporting information that might not have been included in the above sections, look to the [Appendix.](https://qmaness-hue.github.io/Appendix/)
 
-### Final Project
+### Final Project (Individual)
 ![MyBoard](MyBoard.png)

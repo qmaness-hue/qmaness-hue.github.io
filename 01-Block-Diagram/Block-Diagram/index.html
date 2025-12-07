@@ -548,6 +548,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Functionality
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -944,6 +959,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Functionality
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -982,8 +1012,16 @@
 
 <h2 id="overview">Overview</h2>
 <p>The purpose of this block diagram is to get a basic visual representation of what my subsystem for the ClapSense will look like. It indicates the mechanism for creating a system that automatically shuts the ClapSense off when there's already enough light present. It also shows how many connections will be made as well as where they will be on the board.</p>
+<h3 id="functionality">Functionality</h3>
+<ul>
+<li>The upper left corner of the block diagram holds the voltage source and regulator. The source (outsidethe box) is 9V, and the LM7805 voltage regulator converts this 9V into the necessary 5V.</li>
+<li>Just below the voltage regulating system is the sensor and op-amp system, which acts as an input to the microcontroller's pin RC5. RC5 is an ADC, meaning it converts the signal from analog to digital for the microcontroller. </li>
+<li>To the right of the microcontroller is the PWM LED, which is controlled by the microcontroller output RB3. The LED can give an idea of when the subsystem is activating, allowing the user to determine if it is false triggering or not (the system can be shut off in the case that it is false triggering).</li>
+<li>Finally, the output pin RA1 indicates the signal that goes to the actual clap light's microcontoller. It functions largely the same as the PWM LED, but it turns the clap light system on or off, rather than just being for debugging.</li>
+</ul>
 <h2 id="block-diagram">Block Diagram</h2>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../IndividualBlockDiagram.png" data-desc-position="bottom"><img alt=" Individual Block Diagram " src="../IndividualBlockDiagram.png"></a></p>
+<p>The PDF of the above block diagram can be found <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="IndividualBlockDiagram.pdf" data-desc-position="bottom"><img alt="here." src="IndividualBlockDiagram.pdf"></a></p>
 
 
 

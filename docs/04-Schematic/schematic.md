@@ -8,7 +8,7 @@ This schematic is designed to support a system that utilizes a light sensor to d
 
 
 ![schematic](SubsystemSchematicDesign3.1.png){style width:"350" height:"300;"}
-**Figure ##:** The subsystem including the the light sensor, it's OPAMP system, the voltage regulator, debugging devices, and the ON/OFF switch.
+**Figure 1:** The subsystem including the the light sensor, it's OPAMP system, the voltage regulator, debugging devices, and the ON/OFF switch.
 
 
 ## Resources

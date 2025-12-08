@@ -4,7 +4,7 @@ title: Component Selection
 
 ### Light Sensor
 
-*Table 1: Light Sensor for Clap Light*
+*Table 1: Light Sensor for Light Sensor Subsystem*
 
 **Light Sensor**
 
@@ -22,7 +22,7 @@ title: Component Selection
 
 ### Op-Amp
 
-*Table 2: Op-Amp for Light Sensor*
+*Table 2: Op-Amp for Light Sensor Subsystem*
 
 **Op-Amp**
 
@@ -40,7 +40,7 @@ title: Component Selection
 
 ### Switch
 
-*Table 3: Switch for Clap Light Sound Sensor Subsystem*
+*Table 3: Switch for Light Sensor Subsystem*
 
 **Switch**
 
@@ -57,7 +57,7 @@ title: Component Selection
 
 ### Voltage Regulator
 
-*Table 4: Voltage Regulator for Sound Sensor Subsystem*
+*Table 4: Voltage Regulator for Light Sensor Subsystem*
 
 **Voltage Regulator**
 
@@ -72,7 +72,7 @@ title: Component Selection
 
 ### Final Selection Summary
 
-*Table 5: Final Major Components for Clap Light*
+*Table 5: Final Major Components for Light Sensor Subsystem*
 
 **Final Selection**
 

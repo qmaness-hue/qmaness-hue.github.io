@@ -28,7 +28,7 @@ The PCB front plate as a PDF download is available [*here*](LightSensorPCB.front
 
 The PCB back plate as a PDF download is available [*here*](LightSensorPCB.pdf).
 
-The manufactured PCB as a PDF download is available [*here*](FinalPCB.pdf].
+The manufactured PCB as a PDF download is available [*here*](FinalPCB.pdf).
 
 The Zip file of the project [*here*](SubsystemSchematicDesign2.0.zip).
 

@@ -22,6 +22,7 @@ MCP6004 Op-Amp | 1 | $0.59 | $ 0.59 | MicroChip Technology | MCP6004-I/P-ND | [D
 | .33uF Ceramic Capacitor | 1 | $0.72 | $ 0.72 | Vishay Beyschlag/Draloric/BC Components | 1C10Z5U334M050B | Peralta 109 | [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2323/1C-9C_Series_Rev_Sep_2015.pdf) | C11 |
 | .1uF Ceramic Capacitor | 7 | $0.24 | $ 1.68 | Vishay Beyschlag/Draloric/BC Components | K104K10X7RF5TL2 | Peralta 109 | [Datasheet](https://www.vishay.com/docs/45171/kseries.pdf) | C1, C2, C3, C6, C8, C9, C12 |
 | Button Switch | 1 | $0.50 | $ 0.50 | SparkFun Electronics | 00097 | Peralta 109 | Not Provided | SW1 |
+| ON/OFF Switch | 2 | $2.65 | $ 5.30 | CIT Relay and Switch | 2449-CST10T2CR-ND | [Digikey](https://www.digikey.com/en/products/detail/cit-relay-and-switch/CST10T2CR/12503245) | [Datasheet](https://www.citrelay.com/wp-content/uploads/2025/05/Switch-CST.pdf) | SW2 |
 | Red LED | 1 | $0.15 | $ 0.15 | Würth Elektronik | 151051RS11000 | Peralta 109 | [Datasheet](https://www.we-online.com/components/products/datasheet/151051RS11000.pdf) | D1 |
 | 1x40 Male Header | 1 | $1.38 | $ 1.38 | Würth Elektronik | 61304011121 | Peralta 109 | [Datasheet](https://www.we-online.com/components/products/datasheet/61304011121.pdf) | H1 |
 | 1x2 Jumper | 3 | $0.28 | $0.84  | Würth Elektronik | 60900213421 | Peralta 109 | [Datasheet](https://www.we-online.com/components/products/datasheet/60900213421.pdf) | J1, J2, J3 |

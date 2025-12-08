@@ -623,6 +623,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#final-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Selection
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -991,6 +1000,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#final-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Selection
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1130,6 +1148,40 @@
 </table>
 <p><strong>Choice:</strong> Option 1: LM7805</p>
 <p><strong>Rationale:</strong> The LM7805--while not as efficient as others and lacking impressive specifications--is perfectly capable of doing what is required by the subsystem. Considering that only +5V and a current of ~750mA is necessitated by the system, the specifications given by the LM7805 is more than enough. It must also be pointed out that, as students, we already have easy access to this voltage regulator. It's a simple choice, and the subsystem doesn't need a complex voltage regulator.</p>
+<h3 id="final-selection">Final Selection</h3>
+<p><em>Table 15: Light Sensor for Clap Light</em></p>
+<p><strong>Light Sensor</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Final Choice Summary</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../PDV-P5003.png" data-desc-position="bottom"><img alt="" src="../PDV-P5003.png"></a><br> Light Sensor <br> PDV-P5003 Photo-Resistor <br>$1.54/each<br><a href="https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P5003/480601?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20232005509&amp;gbraid=0AAAAADrbLlhkYAWNMNTozepAbTv2ccVwy&amp;gclid=Cj0KCQiAq7HIBhDoARIsAOATDxBoWV_Mcap_0-JiqJw5yr9BXxVhOUe6OAGBLrxOzEh_MJes9yKxfcEaAtMhEALw_wcB">Link to product</a></td>
+<td>* Very simple and easy to use <br>* Small footprint <br>* Works directly with op-amp (we had a lab using a photoresistor</td>
+<td>* Has no function aside from resistor and light sensor <br>* Less complex usability</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../MCP6004.png" data-desc-position="bottom"><img alt="" src="../MCP6004.png"></a><br> Op-Amp <br> MCP6004<br>$0.59/each<br><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=120565755&amp;gbraid=0AAAAADrbLliPi33eoHc7gYS7GQQx_jXZT&amp;gclid=Cj0KCQiA6NTJBhDEARIsAB7QHD2r7qV9vG9dFCA1AbAkpbMg6GXbUDlzRKTEmFrp_mVI_8Lx5aOBzAUaAsM5EALw_wcB">Link to product</a></td>
+<td>* Operates from 1.8V-6V<br>* Extremely simple and easy <br>* Can easily invert signal with minimal footprint</td>
+<td>* Requires manual testing with sensor <br>* Requires varying resistors based on each sensor</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../CST10T2CR.png" data-desc-position="bottom"><img alt="" src="../CST10T2CR.png"></a><br>Switch<br> CST10T2CR ON/OFF Switch <br>$2.65/each<br><a href="https://www.digikey.com/en/products/detail/cit-relay-and-switch/CST10T2CR/12503245">Link to Product</a></td>
+<td>* Only on and off functions keep it simple <br>* Characterisitics suit project <br>* Durable and high speed</td>
+<td>* Limited customization <br>* Requires power supply</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../LM7805.png" data-desc-position="bottom"><img alt="" src="../LM7805.png"></a><br>Voltage Regulator<br> LM7805 <br>$0.50/each<br><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964">Link to product</a></td>
+<td>* Simple <br>* Meets specifications for +5V voltage regulator <br>* Typical current output is more than enough needed for system</td>
+<td>* Can have problems with overheating <br>* Might need heatsink system</td>
+</tr>
+</tbody>
+</table>
 
 
 

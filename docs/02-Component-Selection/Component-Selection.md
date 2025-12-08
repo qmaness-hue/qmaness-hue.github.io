@@ -20,10 +20,27 @@ title: Component Selection
 
 **Rationale:** The PDV-P5003 Photo-Resistor keeps BOM cost and firmware complexity low while providing fast analog response. It doesn't need to be calibrated in the same way as a phototransistor as is extremely simple and easy to adjust/use.
 
+### Op-Amp
+
+*Table 2: Op-Amp for Light Sensor*
+
+**Op-Amp**
+
+
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](MCP6004.png)<br> Option 1 <br> MCP6004<br>$0.59/each<br>[Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060?gclsrc=aw.ds&gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLliPi33eoHc7gYS7GQQx_jXZT&gclid=Cj0KCQiA6NTJBhDEARIsAB7QHD2r7qV9vG9dFCA1AbAkpbMg6GXbUDlzRKTEmFrp_mVI_8Lx5aOBzAUaAsM5EALw_wcB)                 | \* Operates from 1.8V-6V<br>\* Extremely simple and easy <br>\* Can easily invert signal with minimal footprint | \* Requires manual testing with sensor <br>\* Requires varying resistors based on each sensor |
+| ![](LM358N.png)<br> Option 2 <br> LM358N <br> $1.00/each <br> [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM358N-NOPB/6264) | \* Easy to use <br>\* Operates from 3V-32V | * Larger footprint for inverted amplification <br>\* More expensive |                                                         |
+
+**Choice:** Option 1: MCP6004
+
+**Rationale:** The MCP6004 is a simple, easy to use Op-Amp that we have been using throughout the semester (meaning that we have good experience with it). It can easily and intuitively invert the signal from the sensor. This is something we want so as to make the signal more intuitive.
+
+
 
 ### Switch
 
-*Table 2: Switch for Clap Light Sound Sensor Subsystem*
+*Table 3: Switch for Clap Light Sound Sensor Subsystem*
 
 **Switch**
 
@@ -40,7 +57,7 @@ title: Component Selection
 
 ### Voltage Regulator
 
-*Table 3: Voltage Regulator for Sound Sensor Subsystem*
+*Table 4: Voltage Regulator for Sound Sensor Subsystem*
 
 **Voltage Regulator**
 

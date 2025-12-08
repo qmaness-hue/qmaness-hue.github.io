@@ -597,6 +597,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#op-amp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Op-Amp
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#switch" class="md-nav__link">
     <span class="md-ellipsis">
       Switch
@@ -956,6 +965,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#op-amp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Op-Amp
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#switch" class="md-nav__link">
     <span class="md-ellipsis">
       Switch
@@ -1034,8 +1052,34 @@
 </table>
 <p><strong>Choice:</strong> Option 4: PDV-P5003 Photo-Resistor</p>
 <p><strong>Rationale:</strong> The PDV-P5003 Photo-Resistor keeps BOM cost and firmware complexity low while providing fast analog response. It doesn't need to be calibrated in the same way as a phototransistor as is extremely simple and easy to adjust/use.</p>
+<h3 id="op-amp">Op-Amp</h3>
+<p><em>Table 2: Op-Amp for Light Sensor</em></p>
+<p><strong>Op-Amp</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="MCP6004.png" data-desc-position="bottom"><img alt="" src="MCP6004.png"></a><br> Option 1 <br> MCP6004<br>$0.59/each<br><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=120565755&amp;gbraid=0AAAAADrbLliPi33eoHc7gYS7GQQx_jXZT&amp;gclid=Cj0KCQiA6NTJBhDEARIsAB7QHD2r7qV9vG9dFCA1AbAkpbMg6GXbUDlzRKTEmFrp_mVI_8Lx5aOBzAUaAsM5EALw_wcB">Link to product</a></td>
+<td>* Operates from 1.8V-6V<br>* Extremely simple and easy <br>* Can easily invert signal with minimal footprint</td>
+<td>* Requires manual testing with sensor <br>* Requires varying resistors based on each sensor</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="LM358N.png" data-desc-position="bottom"><img alt="" src="LM358N.png"></a><br> Option 2 <br> LM358N <br> $1.00/each <br> <a href="https://www.digikey.com/en/products/detail/texas-instruments/LM358N-NOPB/6264">Link to product</a></td>
+<td>* Easy to use <br>* Operates from 3V-32V</td>
+<td>* Larger footprint for inverted amplification <br>* More expensive</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice:</strong> Option 1: MCP6004</p>
+<p><strong>Rationale:</strong> The MCP6004 is a simple, easy to use Op-Amp that we have been using throughout the semester (meaning that we have good experience with it). It can easily and intuitively invert the signal from the sensor. This is something we want so as to make the signal more intuitive.</p>
 <h3 id="switch">Switch</h3>
-<p><em>Table 2: Switch for Clap Light Sound Sensor Subsystem</em></p>
+<p><em>Table 3: Switch for Clap Light Sound Sensor Subsystem</em></p>
 <p><strong>Switch</strong></p>
 <table>
 <thead>
@@ -1061,7 +1105,7 @@
 <p><strong>Choice:</strong> Option 1: CST10T2CR ON/OFF Switch</p>
 <p><strong>Rationale:</strong> A simple ON/OFF switch like the one offered by the CST10T2CR is perfectly fine in this application. Seeing as a switch isn't even neccesary (it goes beyond expectations), just having the option itself is more than enough. </p>
 <h3 id="voltage-regulator">Voltage Regulator</h3>
-<p><em>Table 3: Voltage Regulator for Sound Sensor Subsystem</em></p>
+<p><em>Table 4: Voltage Regulator for Sound Sensor Subsystem</em></p>
 <p><strong>Voltage Regulator</strong></p>
 <table>
 <thead>

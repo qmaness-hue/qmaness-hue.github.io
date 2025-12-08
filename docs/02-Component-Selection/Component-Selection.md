@@ -70,14 +70,14 @@ title: Component Selection
 
 **Rationale:** The LM7805--while not as efficient as others and lacking impressive specifications--is perfectly capable of doing what is required by the subsystem. Considering that only +5V and a current of ~750mA is necessitated by the system, the specifications given by the LM7805 is more than enough. It must also be pointed out that, as students, we already have easy access to this voltage regulator. It's a simple choice, and the subsystem doesn't need a complex voltage regulator.
 
-### Final Selection
+### Final Selection Summary
 
-*Table 15: Light Sensor for Clap Light*
+*Table 5: Final Major Components for Clap Light*
 
-**Light Sensor**
+**Final Selection**
 
 
-| **Final Choice Summary**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| **Component**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | ![](PDV-P5003.png)<br> Light Sensor <br> PDV-P5003 Photo-Resistor <br>$1.54/each<br>[Link to product](https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P5003/480601?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLlhkYAWNMNTozepAbTv2ccVwy&gclid=Cj0KCQiAq7HIBhDoARIsAOATDxBoWV_Mcap_0-JiqJw5yr9BXxVhOUe6OAGBLrxOzEh_MJes9yKxfcEaAtMhEALw_wcB)                 | \* Very simple and easy to use <br>\* Small footprint <br>\* Works directly with op-amp (we had a lab using a photoresistor| \* Has no function aside from resistor and light sensor <br>\* Less complex usability|
 | ![](MCP6004.png)<br> Op-Amp <br> MCP6004<br>$0.59/each<br>[Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060?gclsrc=aw.ds&gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLliPi33eoHc7gYS7GQQx_jXZT&gclid=Cj0KCQiA6NTJBhDEARIsAB7QHD2r7qV9vG9dFCA1AbAkpbMg6GXbUDlzRKTEmFrp_mVI_8Lx5aOBzAUaAsM5EALw_wcB)                 | \* Operates from 1.8V-6V<br>\* Extremely simple and easy <br>\* Can easily invert signal with minimal footprint | \* Requires manual testing with sensor <br>\* Requires varying resistors based on each sensor |                                                

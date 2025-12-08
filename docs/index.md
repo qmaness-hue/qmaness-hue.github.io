@@ -33,7 +33,8 @@ for<br>
 * If you wish to look at the detailed schematic, as well as further explanation behind the subsystem's functions, look to the ["Schematic"](https://qmaness-hue.github.io/04-Schematic/schematic/) section.
 * If you wish to see the power budget for the subsystem, as well as the organized specifications of included major components, look to the ["Power Budget".](https://qmaness-hue.github.io/05-Power-Budget/Power-Budget/)
 * For the PCB of the subsystem, including the Kicad files and layers of the PCB, refer to the ["PCB"](https://qmaness-hue.github.io/06-PCB-Design/IndividualPCB/) section.
-* As for the code that went into my individual PIC microcontroller, look to the ["Microcontoller Code."](https://qmaness-hue.github.io/07-Microcontroller-Code/Code/)
+* As for extra resources, such as the code that went into my individual PIC microcontroller, look to the ["Resources"](https://qmaness-hue.github.io/07-Resources/Code/) section.
+* The section, ["Hardware V2.0"](https://github.com/qmaness-hue/qmaness-hue.github.io/blob/main/docs/08-Hardware-V2.0/Hardware.md) includes any possible improvements that could have been made in hindsight.
 * For any supporting information that might not have been included in the above sections, look to the [Appendix.](https://qmaness-hue.github.io/Appendix/)
 
 ### Final Project (Individual)
